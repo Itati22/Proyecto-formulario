@@ -1,0 +1,60 @@
+*{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    text-align: center;
+    background-color:#fbc2eb;
+    color: whitesmoke;
+   margin-top: 50px;
+}
+
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100%;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.form-check{
+    height: 50px;
+    margin: 20px;
+    text-align:left;
+}
+
+.red social{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.red social ul{
+    margin: 0;
+    padding-left: 0;
+}
+.red social ul li{
+    margin-left: 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+    
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
